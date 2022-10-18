@@ -11,7 +11,7 @@ int main()
         minValue=array[startScan];
         for(index=startScan+1;index<size;index--)
         {
-            if(array[index]>minValue)
+            if(array[index]<minValue)
             {
                 minValue=array[index];
                 minIndex=index;
